@@ -100,7 +100,6 @@
         }
         .v-card-header { padding: 2.5rem 2rem; text-align: center; color: white; }
         .v-card-header.church { background-color: var(--morandi-green); }
-        .v-card-header.banquet { background-color: var(--morandi-banquet); }
         .v-card-header h3 { color: white !important; letter-spacing: 0.3em; font-weight: 700; }
         .v-card-header p { color: rgba(255,255,255,0.9) !important; font-size: 0.8rem; margin-top: 5px; letter-spacing: 0.1em; }
 
@@ -126,7 +125,6 @@
             font-weight: 600; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;
         }
         .toggle-btn.church { color: var(--morandi-green); background: rgba(107, 126, 117, 0.1); border: 1px solid rgba(107, 126, 117, 0.2); }
-        .toggle-btn.banquet { color: var(--morandi-banquet); background: rgba(141, 160, 144, 0.1); border: 1px solid rgba(141, 160, 144, 0.2); }
         .toggle-btn:hover { transform: translateY(-2px); opacity: 0.9; }
 
         .bus-list { font-size: 0.75rem; color: #8a7a70; line-height: 1.4; margin-top: 5px; }
@@ -238,30 +236,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- 午宴 -->
-            <div class="v-card fade-in">
-                <div class="v-card-header banquet">
-                    <h3 class="text-2xl">午宴</h3>
-                    <p class="artsy-en">WEDDING BANQUET</p>
-                </div>
-                <div class="v-card-body">
-                    <div class="grid md:grid-cols-2 gap-8 mb-4">
-                        <div><p class="text-[10px] text-[#8a7a70] mb-1 tracking-widest uppercase text-[#5a6b5e]">Time</p><p class="text-xl font-bold text-[#5a6b5e]">12:00 入席 | 12:30 開席</p></div>
-                        <div><p class="text-[10px] text-[#8a7a70] mb-1 tracking-widest uppercase">Location</p><p class="text-lg font-bold">新店彭園會館 BC廳</p><p class="text-xs text-[#8a7a70] italic mt-1 leading-relaxed font-medium">新北市新店區北新路三段207之1號1樓</p></div>
-                    </div>
-
-                    <div id="btnBanquetTransport" class="toggle-btn banquet" onclick="toggleSection('banquetTransport')">
-                        <i class="fa-solid fa-car mr-2"></i> 查看午宴交通指引
-                    </div>
-
-                    <div id="banquetTransport" class="transport-collapse">
-                        <div class="transport-item"><h4 class="font-bold text-[#5a6b5e]">捷運</h4><p>「大坪林站」3號或4號出口 (步程約 3-5 分鐘)</p></div>
-                        <div class="transport-item"><h4 class="font-bold text-[#5a6b5e]">公車</h4><p><span class="bus-list"><strong class="text-stone-700">大坪林站：</strong>綠7-10, 綠13, 15, 棕2, 252, 290, 642-648, 849, 1551, 9009等。<br><strong class="text-stone-700">民權路口：</strong>綠3, 綠8-10, 綠13, 15, 90, 918, 1073, 1080等。</span></p></div>
-                        <div class="transport-item"><h4 class="font-bold text-[#5a6b5e]">停車入口</h4><p class="text-[11px]"><span class="font-bold text-stone-700">汽車：</span>北新路三段 211 巷 (矽谷一期 B3)<br><span class="font-bold text-stone-700">機車：</span>北新路三段 203 巷 (矽谷一期 B2)<br>※ 餐廳提供停車位，依現場公告為準</p></div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -350,7 +324,7 @@
     <!-- 頁尾 -->
     <footer class="py-12 md:py-24 bg-white text-center bg-opacity-60 border-t border-stone-200">
         <div class="artsy-en text-2xl font-bold text-[#6b7e75]">Johnny & Sarah</div>
-        <p class="serif-en text-[10px] text-[#8a7a70] tracking-[0.4em] font-medium">2026.06.06 | TAIPEI CEREMONY & BANQUET</p>
+        <p class="serif-en text-[10px] text-[#8a7a70] tracking-[0.4em] font-medium">2026.06.06 | TAIPEI CEREMONY</p>
     </footer>
 
     <script>
